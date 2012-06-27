@@ -1,0 +1,331 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07B2082F1595BBBD00581AED /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07B2082E1595BBBD00581AED /* UIKit.framework */; };
+		07B208311595BBBD00581AED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07B208301595BBBD00581AED /* Foundation.framework */; };
+		07B208331595BBBD00581AED /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07B208321595BBBD00581AED /* CoreGraphics.framework */; };
+		07B208391595BBBD00581AED /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 07B208371595BBBD00581AED /* InfoPlist.strings */; };
+		07B2083B1595BBBD00581AED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 07B2083A1595BBBD00581AED /* main.m */; };
+		07B2083F1595BBBD00581AED /* IAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 07B2083E1595BBBD00581AED /* IAAppDelegate.m */; };
+		07B208421595BBBD00581AED /* IAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07B208411595BBBD00581AED /* IAViewController.m */; };
+		07B208451595BBBD00581AED /* IAViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07B208431595BBBD00581AED /* IAViewController_iPhone.xib */; };
+		07B208511595BC4000581AED /* IASecondViewConroller.m in Sources */ = {isa = PBXBuildFile; fileRef = 07B2084F1595BC4000581AED /* IASecondViewConroller.m */; };
+		07B208521595BC4000581AED /* IASecondViewConroller.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07B208501595BC4000581AED /* IASecondViewConroller.xib */; };
+		07EA155C159B9C3500C5147E /* IADraggableAnimationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 07EA1556159B9C3500C5147E /* IADraggableAnimationManager.m */; };
+		07EA155D159B9C3500C5147E /* IADraggableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07EA1558159B9C3500C5147E /* IADraggableViewController.m */; };
+		07EA155E159B9C3500C5147E /* IASequenceAnimations.m in Sources */ = {isa = PBXBuildFile; fileRef = 07EA155B159B9C3500C5147E /* IASequenceAnimations.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		07B2082A1595BBBD00581AED /* AppleSlideView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppleSlideView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		07B2082E1595BBBD00581AED /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		07B208301595BBBD00581AED /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		07B208321595BBBD00581AED /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		07B208361595BBBD00581AED /* AppleSlideView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AppleSlideView-Info.plist"; sourceTree = "<group>"; };
+		07B208381595BBBD00581AED /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		07B2083A1595BBBD00581AED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		07B2083C1595BBBD00581AED /* AppleSlideView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AppleSlideView-Prefix.pch"; sourceTree = "<group>"; };
+		07B2083D1595BBBD00581AED /* IAAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IAAppDelegate.h; sourceTree = "<group>"; };
+		07B2083E1595BBBD00581AED /* IAAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IAAppDelegate.m; sourceTree = "<group>"; };
+		07B208401595BBBD00581AED /* IAViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IAViewController.h; sourceTree = "<group>"; };
+		07B208411595BBBD00581AED /* IAViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IAViewController.m; sourceTree = "<group>"; };
+		07B208441595BBBD00581AED /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/IAViewController_iPhone.xib; sourceTree = "<group>"; };
+		07B2084E1595BC4000581AED /* IASecondViewConroller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IASecondViewConroller.h; sourceTree = "<group>"; };
+		07B2084F1595BC4000581AED /* IASecondViewConroller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IASecondViewConroller.m; sourceTree = "<group>"; };
+		07B208501595BC4000581AED /* IASecondViewConroller.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IASecondViewConroller.xib; sourceTree = "<group>"; };
+		07EA1555159B9C3500C5147E /* IADraggableAnimationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IADraggableAnimationManager.h; sourceTree = "<group>"; };
+		07EA1556159B9C3500C5147E /* IADraggableAnimationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IADraggableAnimationManager.m; sourceTree = "<group>"; };
+		07EA1557159B9C3500C5147E /* IADraggableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IADraggableViewController.h; sourceTree = "<group>"; };
+		07EA1558159B9C3500C5147E /* IADraggableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IADraggableViewController.m; sourceTree = "<group>"; };
+		07EA155A159B9C3500C5147E /* IASequenceAnimations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IASequenceAnimations.h; sourceTree = "<group>"; };
+		07EA155B159B9C3500C5147E /* IASequenceAnimations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IASequenceAnimations.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		07B208271595BBBD00581AED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07B2082F1595BBBD00581AED /* UIKit.framework in Frameworks */,
+				07B208311595BBBD00581AED /* Foundation.framework in Frameworks */,
+				07B208331595BBBD00581AED /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07B2081F1595BBBD00581AED = {
+			isa = PBXGroup;
+			children = (
+				07EA1554159B9C3500C5147E /* IADraggableViewController */,
+				07EA1559159B9C3500C5147E /* IASequenceAnimations */,
+				07B208341595BBBD00581AED /* AppleSlideView */,
+				07B2082D1595BBBD00581AED /* Frameworks */,
+				07B2082B1595BBBD00581AED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		07B2082B1595BBBD00581AED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				07B2082A1595BBBD00581AED /* AppleSlideView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		07B2082D1595BBBD00581AED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				07B2082E1595BBBD00581AED /* UIKit.framework */,
+				07B208301595BBBD00581AED /* Foundation.framework */,
+				07B208321595BBBD00581AED /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		07B208341595BBBD00581AED /* AppleSlideView */ = {
+			isa = PBXGroup;
+			children = (
+				07B2083D1595BBBD00581AED /* IAAppDelegate.h */,
+				07B2083E1595BBBD00581AED /* IAAppDelegate.m */,
+				07B208401595BBBD00581AED /* IAViewController.h */,
+				07B208411595BBBD00581AED /* IAViewController.m */,
+				07B208431595BBBD00581AED /* IAViewController_iPhone.xib */,
+				07B208351595BBBD00581AED /* Supporting Files */,
+				07B2084E1595BC4000581AED /* IASecondViewConroller.h */,
+				07B2084F1595BC4000581AED /* IASecondViewConroller.m */,
+				07B208501595BC4000581AED /* IASecondViewConroller.xib */,
+			);
+			path = AppleSlideView;
+			sourceTree = "<group>";
+		};
+		07B208351595BBBD00581AED /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				07B208361595BBBD00581AED /* AppleSlideView-Info.plist */,
+				07B208371595BBBD00581AED /* InfoPlist.strings */,
+				07B2083A1595BBBD00581AED /* main.m */,
+				07B2083C1595BBBD00581AED /* AppleSlideView-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		07EA1554159B9C3500C5147E /* IADraggableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				07EA1555159B9C3500C5147E /* IADraggableAnimationManager.h */,
+				07EA1556159B9C3500C5147E /* IADraggableAnimationManager.m */,
+				07EA1557159B9C3500C5147E /* IADraggableViewController.h */,
+				07EA1558159B9C3500C5147E /* IADraggableViewController.m */,
+			);
+			path = IADraggableViewController;
+			sourceTree = "<group>";
+		};
+		07EA1559159B9C3500C5147E /* IASequenceAnimations */ = {
+			isa = PBXGroup;
+			children = (
+				07EA155A159B9C3500C5147E /* IASequenceAnimations.h */,
+				07EA155B159B9C3500C5147E /* IASequenceAnimations.m */,
+			);
+			path = IASequenceAnimations;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		07B208291595BBBD00581AED /* AppleSlideView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07B2084B1595BBBD00581AED /* Build configuration list for PBXNativeTarget "AppleSlideView" */;
+			buildPhases = (
+				07B208261595BBBD00581AED /* Sources */,
+				07B208271595BBBD00581AED /* Frameworks */,
+				07B208281595BBBD00581AED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AppleSlideView;
+			productName = AppleSlideView;
+			productReference = 07B2082A1595BBBD00581AED /* AppleSlideView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		07B208211595BBBD00581AED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = IA;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 07B208241595BBBD00581AED /* Build configuration list for PBXProject "AppleSlideView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 07B2081F1595BBBD00581AED;
+			productRefGroup = 07B2082B1595BBBD00581AED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				07B208291595BBBD00581AED /* AppleSlideView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		07B208281595BBBD00581AED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07B208391595BBBD00581AED /* InfoPlist.strings in Resources */,
+				07B208451595BBBD00581AED /* IAViewController_iPhone.xib in Resources */,
+				07B208521595BC4000581AED /* IASecondViewConroller.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		07B208261595BBBD00581AED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07B2083B1595BBBD00581AED /* main.m in Sources */,
+				07B2083F1595BBBD00581AED /* IAAppDelegate.m in Sources */,
+				07B208421595BBBD00581AED /* IAViewController.m in Sources */,
+				07B208511595BC4000581AED /* IASecondViewConroller.m in Sources */,
+				07EA155C159B9C3500C5147E /* IADraggableAnimationManager.m in Sources */,
+				07EA155D159B9C3500C5147E /* IADraggableViewController.m in Sources */,
+				07EA155E159B9C3500C5147E /* IASequenceAnimations.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		07B208371595BBBD00581AED /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07B208381595BBBD00581AED /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		07B208431595BBBD00581AED /* IAViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07B208441595BBBD00581AED /* en */,
+			);
+			name = IAViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		07B208491595BBBD00581AED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		07B2084A1595BBBD00581AED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		07B2084C1595BBBD00581AED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AppleSlideView/AppleSlideView-Prefix.pch";
+				INFOPLIST_FILE = "AppleSlideView/AppleSlideView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		07B2084D1595BBBD00581AED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AppleSlideView/AppleSlideView-Prefix.pch";
+				INFOPLIST_FILE = "AppleSlideView/AppleSlideView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		07B208241595BBBD00581AED /* Build configuration list for PBXProject "AppleSlideView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07B208491595BBBD00581AED /* Debug */,
+				07B2084A1595BBBD00581AED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07B2084B1595BBBD00581AED /* Build configuration list for PBXNativeTarget "AppleSlideView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07B2084C1595BBBD00581AED /* Debug */,
+				07B2084D1595BBBD00581AED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 07B208211595BBBD00581AED /* Project object */;
+}
