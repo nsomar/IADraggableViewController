@@ -2,7 +2,7 @@
 //  IADraggableAnimationManager.h
 //  AppleSlideView
 //
-//  Created by Omar Subhi on 6/23/12.
+//  Created by Omar Abdelhafith on 6/23/12.
 //  Copyright (c) 2012 Infusion Apps. All rights reserved.
 //
 
