@@ -10,41 +10,44 @@
 		07B2082F1595BBBD00581AED /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07B2082E1595BBBD00581AED /* UIKit.framework */; };
 		07B208311595BBBD00581AED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07B208301595BBBD00581AED /* Foundation.framework */; };
 		07B208331595BBBD00581AED /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07B208321595BBBD00581AED /* CoreGraphics.framework */; };
-		07B208391595BBBD00581AED /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 07B208371595BBBD00581AED /* InfoPlist.strings */; };
-		07B2083B1595BBBD00581AED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 07B2083A1595BBBD00581AED /* main.m */; };
-		07B2083F1595BBBD00581AED /* IAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 07B2083E1595BBBD00581AED /* IAAppDelegate.m */; };
-		07B208421595BBBD00581AED /* IAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07B208411595BBBD00581AED /* IAViewController.m */; };
-		07B208451595BBBD00581AED /* IAViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07B208431595BBBD00581AED /* IAViewController_iPhone.xib */; };
-		07B208511595BC4000581AED /* IASecondViewConroller.m in Sources */ = {isa = PBXBuildFile; fileRef = 07B2084F1595BC4000581AED /* IASecondViewConroller.m */; };
-		07B208521595BC4000581AED /* IASecondViewConroller.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07B208501595BC4000581AED /* IASecondViewConroller.xib */; };
 		07EA155C159B9C3500C5147E /* IADraggableAnimationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 07EA1556159B9C3500C5147E /* IADraggableAnimationManager.m */; };
 		07EA155D159B9C3500C5147E /* IADraggableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07EA1558159B9C3500C5147E /* IADraggableViewController.m */; };
 		07EA155E159B9C3500C5147E /* IASequenceAnimations.m in Sources */ = {isa = PBXBuildFile; fileRef = 07EA155B159B9C3500C5147E /* IASequenceAnimations.m */; };
+		07EA1570159BA4A900C5147E /* IAViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07EA1560159BA4A900C5147E /* IAViewController_iPad.xib */; };
+		07EA1571159BA4A900C5147E /* IAViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07EA1562159BA4A900C5147E /* IAViewController_iPhone.xib */; };
+		07EA1572159BA4A900C5147E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 07EA1564159BA4A900C5147E /* InfoPlist.strings */; };
+		07EA1573159BA4A900C5147E /* IAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 07EA1567159BA4A900C5147E /* IAAppDelegate.m */; };
+		07EA1574159BA4A900C5147E /* IADraggableViewControllerDemo-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 07EA1568159BA4A900C5147E /* IADraggableViewControllerDemo-Info.plist */; };
+		07EA1575159BA4A900C5147E /* IASecondViewConroller.m in Sources */ = {isa = PBXBuildFile; fileRef = 07EA156B159BA4A900C5147E /* IASecondViewConroller.m */; };
+		07EA1576159BA4A900C5147E /* IASecondViewConroller.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07EA156C159BA4A900C5147E /* IASecondViewConroller.xib */; };
+		07EA1577159BA4A900C5147E /* IAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07EA156E159BA4A900C5147E /* IAViewController.m */; };
+		07EA1578159BA4A900C5147E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 07EA156F159BA4A900C5147E /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		07B2082A1595BBBD00581AED /* AppleSlideView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppleSlideView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		07B2082A1595BBBD00581AED /* IADraggableViewControllerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IADraggableViewControllerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		07B2082E1595BBBD00581AED /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		07B208301595BBBD00581AED /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		07B208321595BBBD00581AED /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		07B208361595BBBD00581AED /* AppleSlideView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AppleSlideView-Info.plist"; sourceTree = "<group>"; };
-		07B208381595BBBD00581AED /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		07B2083A1595BBBD00581AED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		07B2083C1595BBBD00581AED /* AppleSlideView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AppleSlideView-Prefix.pch"; sourceTree = "<group>"; };
-		07B2083D1595BBBD00581AED /* IAAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IAAppDelegate.h; sourceTree = "<group>"; };
-		07B2083E1595BBBD00581AED /* IAAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IAAppDelegate.m; sourceTree = "<group>"; };
-		07B208401595BBBD00581AED /* IAViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IAViewController.h; sourceTree = "<group>"; };
-		07B208411595BBBD00581AED /* IAViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IAViewController.m; sourceTree = "<group>"; };
-		07B208441595BBBD00581AED /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/IAViewController_iPhone.xib; sourceTree = "<group>"; };
-		07B2084E1595BC4000581AED /* IASecondViewConroller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IASecondViewConroller.h; sourceTree = "<group>"; };
-		07B2084F1595BC4000581AED /* IASecondViewConroller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IASecondViewConroller.m; sourceTree = "<group>"; };
-		07B208501595BC4000581AED /* IASecondViewConroller.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IASecondViewConroller.xib; sourceTree = "<group>"; };
 		07EA1555159B9C3500C5147E /* IADraggableAnimationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IADraggableAnimationManager.h; sourceTree = "<group>"; };
 		07EA1556159B9C3500C5147E /* IADraggableAnimationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IADraggableAnimationManager.m; sourceTree = "<group>"; };
 		07EA1557159B9C3500C5147E /* IADraggableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IADraggableViewController.h; sourceTree = "<group>"; };
 		07EA1558159B9C3500C5147E /* IADraggableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IADraggableViewController.m; sourceTree = "<group>"; };
 		07EA155A159B9C3500C5147E /* IASequenceAnimations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IASequenceAnimations.h; sourceTree = "<group>"; };
 		07EA155B159B9C3500C5147E /* IASequenceAnimations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IASequenceAnimations.m; sourceTree = "<group>"; };
+		07EA1561159BA4A900C5147E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/IAViewController_iPad.xib; sourceTree = "<group>"; };
+		07EA1563159BA4A900C5147E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/IAViewController_iPhone.xib; sourceTree = "<group>"; };
+		07EA1565159BA4A900C5147E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		07EA1566159BA4A900C5147E /* IAAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IAAppDelegate.h; sourceTree = "<group>"; };
+		07EA1567159BA4A900C5147E /* IAAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IAAppDelegate.m; sourceTree = "<group>"; };
+		07EA1568159BA4A900C5147E /* IADraggableViewControllerDemo-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "IADraggableViewControllerDemo-Info.plist"; sourceTree = "<group>"; };
+		07EA1569159BA4A900C5147E /* IADraggableViewControllerDemo-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IADraggableViewControllerDemo-Prefix.pch"; sourceTree = "<group>"; };
+		07EA156A159BA4A900C5147E /* IASecondViewConroller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IASecondViewConroller.h; sourceTree = "<group>"; };
+		07EA156B159BA4A900C5147E /* IASecondViewConroller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IASecondViewConroller.m; sourceTree = "<group>"; };
+		07EA156C159BA4A900C5147E /* IASecondViewConroller.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IASecondViewConroller.xib; sourceTree = "<group>"; };
+		07EA156D159BA4A900C5147E /* IAViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IAViewController.h; sourceTree = "<group>"; };
+		07EA156E159BA4A900C5147E /* IAViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IAViewController.m; sourceTree = "<group>"; };
+		07EA156F159BA4A900C5147E /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,9 +67,9 @@
 		07B2081F1595BBBD00581AED = {
 			isa = PBXGroup;
 			children = (
+				07EA155F159BA4A900C5147E /* IADraggableViewControllerDemo */,
 				07EA1554159B9C3500C5147E /* IADraggableViewController */,
 				07EA1559159B9C3500C5147E /* IASequenceAnimations */,
-				07B208341595BBBD00581AED /* AppleSlideView */,
 				07B2082D1595BBBD00581AED /* Frameworks */,
 				07B2082B1595BBBD00581AED /* Products */,
 			);
@@ -75,7 +78,7 @@
 		07B2082B1595BBBD00581AED /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				07B2082A1595BBBD00581AED /* AppleSlideView.app */,
+				07B2082A1595BBBD00581AED /* IADraggableViewControllerDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -88,33 +91,6 @@
 				07B208321595BBBD00581AED /* CoreGraphics.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		07B208341595BBBD00581AED /* AppleSlideView */ = {
-			isa = PBXGroup;
-			children = (
-				07B2083D1595BBBD00581AED /* IAAppDelegate.h */,
-				07B2083E1595BBBD00581AED /* IAAppDelegate.m */,
-				07B208401595BBBD00581AED /* IAViewController.h */,
-				07B208411595BBBD00581AED /* IAViewController.m */,
-				07B208431595BBBD00581AED /* IAViewController_iPhone.xib */,
-				07B208351595BBBD00581AED /* Supporting Files */,
-				07B2084E1595BC4000581AED /* IASecondViewConroller.h */,
-				07B2084F1595BC4000581AED /* IASecondViewConroller.m */,
-				07B208501595BC4000581AED /* IASecondViewConroller.xib */,
-			);
-			path = AppleSlideView;
-			sourceTree = "<group>";
-		};
-		07B208351595BBBD00581AED /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				07B208361595BBBD00581AED /* AppleSlideView-Info.plist */,
-				07B208371595BBBD00581AED /* InfoPlist.strings */,
-				07B2083A1595BBBD00581AED /* main.m */,
-				07B2083C1595BBBD00581AED /* AppleSlideView-Prefix.pch */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		07EA1554159B9C3500C5147E /* IADraggableViewController */ = {
@@ -137,12 +113,32 @@
 			path = IASequenceAnimations;
 			sourceTree = "<group>";
 		};
+		07EA155F159BA4A900C5147E /* IADraggableViewControllerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				07EA1560159BA4A900C5147E /* IAViewController_iPad.xib */,
+				07EA1562159BA4A900C5147E /* IAViewController_iPhone.xib */,
+				07EA1564159BA4A900C5147E /* InfoPlist.strings */,
+				07EA1566159BA4A900C5147E /* IAAppDelegate.h */,
+				07EA1567159BA4A900C5147E /* IAAppDelegate.m */,
+				07EA1568159BA4A900C5147E /* IADraggableViewControllerDemo-Info.plist */,
+				07EA1569159BA4A900C5147E /* IADraggableViewControllerDemo-Prefix.pch */,
+				07EA156A159BA4A900C5147E /* IASecondViewConroller.h */,
+				07EA156B159BA4A900C5147E /* IASecondViewConroller.m */,
+				07EA156C159BA4A900C5147E /* IASecondViewConroller.xib */,
+				07EA156D159BA4A900C5147E /* IAViewController.h */,
+				07EA156E159BA4A900C5147E /* IAViewController.m */,
+				07EA156F159BA4A900C5147E /* main.m */,
+			);
+			path = IADraggableViewControllerDemo;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		07B208291595BBBD00581AED /* AppleSlideView */ = {
+		07B208291595BBBD00581AED /* IADraggableViewControllerDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 07B2084B1595BBBD00581AED /* Build configuration list for PBXNativeTarget "AppleSlideView" */;
+			buildConfigurationList = 07B2084B1595BBBD00581AED /* Build configuration list for PBXNativeTarget "IADraggableViewControllerDemo" */;
 			buildPhases = (
 				07B208261595BBBD00581AED /* Sources */,
 				07B208271595BBBD00581AED /* Frameworks */,
@@ -152,9 +148,9 @@
 			);
 			dependencies = (
 			);
-			name = AppleSlideView;
+			name = IADraggableViewControllerDemo;
 			productName = AppleSlideView;
-			productReference = 07B2082A1595BBBD00581AED /* AppleSlideView.app */;
+			productReference = 07B2082A1595BBBD00581AED /* IADraggableViewControllerDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -166,7 +162,7 @@
 				CLASSPREFIX = IA;
 				LastUpgradeCheck = 0430;
 			};
-			buildConfigurationList = 07B208241595BBBD00581AED /* Build configuration list for PBXProject "AppleSlideView" */;
+			buildConfigurationList = 07B208241595BBBD00581AED /* Build configuration list for PBXProject "IADraggableViewControllerDemo" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -178,7 +174,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				07B208291595BBBD00581AED /* AppleSlideView */,
+				07B208291595BBBD00581AED /* IADraggableViewControllerDemo */,
 			);
 		};
 /* End PBXProject section */
@@ -188,9 +184,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				07B208391595BBBD00581AED /* InfoPlist.strings in Resources */,
-				07B208451595BBBD00581AED /* IAViewController_iPhone.xib in Resources */,
-				07B208521595BC4000581AED /* IASecondViewConroller.xib in Resources */,
+				07EA1570159BA4A900C5147E /* IAViewController_iPad.xib in Resources */,
+				07EA1571159BA4A900C5147E /* IAViewController_iPhone.xib in Resources */,
+				07EA1572159BA4A900C5147E /* InfoPlist.strings in Resources */,
+				07EA1574159BA4A900C5147E /* IADraggableViewControllerDemo-Info.plist in Resources */,
+				07EA1576159BA4A900C5147E /* IASecondViewConroller.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -201,33 +199,41 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				07B2083B1595BBBD00581AED /* main.m in Sources */,
-				07B2083F1595BBBD00581AED /* IAAppDelegate.m in Sources */,
-				07B208421595BBBD00581AED /* IAViewController.m in Sources */,
-				07B208511595BC4000581AED /* IASecondViewConroller.m in Sources */,
 				07EA155C159B9C3500C5147E /* IADraggableAnimationManager.m in Sources */,
 				07EA155D159B9C3500C5147E /* IADraggableViewController.m in Sources */,
 				07EA155E159B9C3500C5147E /* IASequenceAnimations.m in Sources */,
+				07EA1573159BA4A900C5147E /* IAAppDelegate.m in Sources */,
+				07EA1575159BA4A900C5147E /* IASecondViewConroller.m in Sources */,
+				07EA1577159BA4A900C5147E /* IAViewController.m in Sources */,
+				07EA1578159BA4A900C5147E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		07B208371595BBBD00581AED /* InfoPlist.strings */ = {
+		07EA1560159BA4A900C5147E /* IAViewController_iPad.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				07B208381595BBBD00581AED /* en */,
+				07EA1561159BA4A900C5147E /* en */,
 			);
-			name = InfoPlist.strings;
+			name = IAViewController_iPad.xib;
 			sourceTree = "<group>";
 		};
-		07B208431595BBBD00581AED /* IAViewController_iPhone.xib */ = {
+		07EA1562159BA4A900C5147E /* IAViewController_iPhone.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				07B208441595BBBD00581AED /* en */,
+				07EA1563159BA4A900C5147E /* en */,
 			);
 			name = IAViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		07EA1564159BA4A900C5147E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07EA1565159BA4A900C5147E /* en */,
+			);
+			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -284,9 +290,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "AppleSlideView/AppleSlideView-Prefix.pch";
-				INFOPLIST_FILE = "AppleSlideView/AppleSlideView-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "IADraggableViewControllerDemo/IADraggableViewControllerDemo-Prefix.pch";
+				INFOPLIST_FILE = "IADraggableViewControllerDemo/IADraggableViewControllerDemo-Info.plist";
+				PRODUCT_NAME = IADraggableViewControllerDemo;
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
@@ -296,9 +302,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "AppleSlideView/AppleSlideView-Prefix.pch";
-				INFOPLIST_FILE = "AppleSlideView/AppleSlideView-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "IADraggableViewControllerDemo/IADraggableViewControllerDemo-Prefix.pch";
+				INFOPLIST_FILE = "IADraggableViewControllerDemo/IADraggableViewControllerDemo-Info.plist";
+				PRODUCT_NAME = IADraggableViewControllerDemo;
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
@@ -307,7 +313,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		07B208241595BBBD00581AED /* Build configuration list for PBXProject "AppleSlideView" */ = {
+		07B208241595BBBD00581AED /* Build configuration list for PBXProject "IADraggableViewControllerDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				07B208491595BBBD00581AED /* Debug */,
@@ -316,7 +322,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		07B2084B1595BBBD00581AED /* Build configuration list for PBXNativeTarget "AppleSlideView" */ = {
+		07B2084B1595BBBD00581AED /* Build configuration list for PBXNativeTarget "IADraggableViewControllerDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				07B2084C1595BBBD00581AED /* Debug */,
