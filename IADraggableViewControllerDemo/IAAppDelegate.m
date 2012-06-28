@@ -43,7 +43,7 @@
     [self.draggableViewController setDraggingView:draggingView];
     
     //Set the button position
-    self.draggableViewController.draggingButtonPosition = IADraggableControllerToolbuttonCenter;
+    self.draggableViewController.draggingButtonPosition = IADraggableControllerToolbuttonRight;
     
     //Set the tool bar height
     self.draggableViewController.toolBarHeight = 30;

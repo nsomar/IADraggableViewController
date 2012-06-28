@@ -295,6 +295,7 @@
 {
     self.draggingView.frame = draggingButton.customView.bounds;
     [draggingButton.customView addSubview:self.draggingView];
+    [draggingButton setCustomView:self.draggingView];
 }
 
 @end
